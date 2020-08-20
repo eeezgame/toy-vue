@@ -1,0 +1,11 @@
+{
+  "name": "toy-vue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/eeezgame/toy-vue.git",
+  "author": "Runki <eeezgame@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "local-server":"http-server -c-1"
+  }
+}

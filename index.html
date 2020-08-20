@@ -1,1 +1,24 @@
-<div>Hello ToyVue!</div>
+<div id="app">
+    <p>{{ message }}</p>
+    <p>{{ message }}</p>
+    <p>{{ message }}</p>
+    <p>{{ aw }}</p>
+</div>
+
+<script type="module">
+    import { ToyVue as Vue } from './lib/toy-vue.js'
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello Vue!',
+            aw:'i am aw'
+        }
+    })
+    window.app = app;
+    setTimeout(()=>{
+        app.data.message = 'Hello aw~'
+        setTimeout(()=>{
+            app.data.aw = 'AWSl!'
+        },1000)
+    },1000)
+</script>
