@@ -6,6 +6,6 @@
   "author": "Runki <eeezgame@163.com>",
   "license": "MIT",
   "scripts": {
-    "local-server":"http-server -c-1"
+    "dev":"http-server -c-1"
   }
 }
